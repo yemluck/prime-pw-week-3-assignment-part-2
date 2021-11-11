@@ -44,6 +44,9 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
+for (star of stars ){
+  console.log(star);
+}
 
 
 // 3. While loops
@@ -51,9 +54,24 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+let i=0;
+while(stars[i]){
+  console.log(stars);
+  i++;
+}
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
+i = 0
+while (i < 6){
+  console.log(i);
+  i++;
+}
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+i = 10
+while (i > 4) { // >=5 also works. Which is the best synthas?
+  console.log(i);
+  i--;
+}
