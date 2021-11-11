@@ -56,7 +56,7 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 let i=0;
 while(stars[i]){
-  console.log(stars);
+  console.log(stars[i]);
   i++;
 }
 
