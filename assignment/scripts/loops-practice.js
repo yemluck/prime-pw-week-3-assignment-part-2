@@ -71,7 +71,7 @@ while (i < 6){
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
 i = 10
-while (i > 4) { // >=5 also works. Which is the best synthas?
+while (i > 4) { // >=5 also works. Which is the best syntax?
   console.log(i);
   i--;
 }
